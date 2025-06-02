@@ -15,47 +15,22 @@ img {
 
 /* Header Start */
 
+.nav {
+    background-color: #0f4c6e;
+}
+
 .sticky-top {
     top: 0;
     position: sticky !important;
-    background-color: rgb(135, 135, 135);
+    /* background-color: #ffffff; */
     z-index: 1030;
 }
 
 .navbar-brand {
     font-family: 'Arial', sans-serif;
     letter-spacing: .1rem;
-    font-size: 2rem;
+    font-size: 1.8rem !important;
     position: relative;
-}
-
-.navbar-brand span {
-    font-family: 'Georgia', serif;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 2rem;
-}
-
-.navbar-brand::before {
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-bottom: 5px solid #de0a14;
-    border-left: 5px solid #de0a14;
-    left: 0;
-    bottom: 0;
-}
-
-.navbar-brand::after {
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-top: 5px solid #de0a14;
-    border-right: 5px solid #de0a14;
-    right: 0;
-    top: 0;
 }
 
 .navbar-nav li a {
@@ -65,18 +40,33 @@ img {
 }
 
 .navbar-nav li a:hover {
-    color: #de0a14;
+    color: #ffffff;
 }
 
+.nav-item .nav_line {
+    width: 0;
+    height: 3px;
+    background-color: #1e7ed1;
+    transition: all ease-in-out .4s;
+}
+
+.navbar-nav li:hover .nav_line {
+    width: 100%;
+}
 
 /* Proflie Section  */
+
+.Profile_section {
+    background-color: #0C4160;
+}
 
 .Profile_section .text_box h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .Profile_section .text_box h2 span {
-    font-family: "Playwrite AU SA", cursive;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 500;
 }
 
 .Profile_section .text_box h1 {
@@ -88,16 +78,22 @@ img {
 }
 
 .Profile_section .text_box a {
-    font-size: .9rem;
+    font-size: 1.2rem;
     color: #ffffff;
-    background-color: #de0a14;
+    font-weight: 500;
     box-shadow: 0px 1px 4px white;
     transition: all ease-in-out .3s;
+    background-color: #1365AD;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
 }
 
 .Profile_section .text_box a:hover {
-    color: black;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #738fa7;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(7, 19, 48, 0.4);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .img_box {
@@ -109,8 +105,8 @@ img {
     position: absolute;
     width: 50px;
     height: 50px;
-    border-bottom: 8px solid #de0a14;
-    border-right: 8px solid #de0a14;
+    border-bottom: 8px solid #C3CEDA;
+    border-right: 8px solid #C3CEDA;
     right: -30px;
     bottom: -30px;
 }
@@ -120,37 +116,43 @@ img {
     position: absolute;
     width: 50px;
     height: 50px;
-    border-top: 8px solid #de0a14;
-    border-left: 8px solid #de0a14;
+    border-top: 8px solid #C3CEDA;
+    border-left: 8px solid #C3CEDA;
     left: -30px;
     top: -30px;
 }
 
 .typing {
-    color: #de0a14;
+    color: #1365ad;
+    font-weight: 600;
 }
 
 
 /* About Us Start */
 
+.about_us_section {
+    background-color: #738FA7;
+}
+
 .about_dash1 {
     width: 4rem;
     height: .2rem;
-    background-color: #de0a14;
+    background-color: orangered;
 }
 
 .about_dash2 {
     width: 2rem;
     height: .2rem;
-    background-color: #de0a14;
+    background-color: orangered;
 }
 
 .about_us_section .text_box {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .about_us_section .text_box span {
-    color: #de0a14;
+    font-weight: 800px;
+    color: #071330;
 }
 
 .info_menu li {
@@ -163,22 +165,27 @@ img {
 }
 
 .progress {
-    height: 1rem !important;
+    height: .5rem !important;
 }
 
 .progress-bar {
-    background-color: #de0a14 !important;
+    height: .5rem !important;
+    background-color: orangered !important;
 }
 
 .info button {
-    font-size: .9rem;
     color: #ffffff;
-    background-color: #de0a14;
-    box-shadow: 0px 1px 4px white;
+    font-weight: 600;
     transition: all ease-in-out .3s;
+    font-size: 1rem;
+    background-color: #1365AD;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .info button:hover {
-    color: black;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #738fa7;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
