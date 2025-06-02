@@ -137,13 +137,13 @@ img {
 .about_dash1 {
     width: 4rem;
     height: .2rem;
-    background-color: orangered;
+    background-color: #1365AD;
 }
 
 .about_dash2 {
     width: 2rem;
     height: .2rem;
-    background-color: orangered;
+    background-color: #1365AD;
 }
 
 .about_us_section .text_box {
@@ -170,7 +170,7 @@ img {
 
 .progress-bar {
     height: .5rem !important;
-    background-color: orangered !important;
+    background-color: #1365AD !important;
 }
 
 .info button {
