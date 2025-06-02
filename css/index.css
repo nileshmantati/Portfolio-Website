@@ -188,3 +188,13 @@ img {
     transform: translateY(-3px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.Education {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Services Section Start */
+
+.services_section {
+    background-color: #0C4160;
+}
