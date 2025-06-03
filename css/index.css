@@ -198,3 +198,86 @@ img {
 .services_section {
     background-color: #0C4160;
 }
+
+.heading {
+    font-family: "Poppins", sans-serif;
+}
+
+.service_main a {
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.services_box {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service_img div {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+}
+
+.services_box:hover i {
+    color: rgb(226, 226, 226);
+}
+
+.services_box:hover .service_img div {
+    background-color: black;
+}
+
+/* Portfolio Section Start  */
+
+.portfolio_section {
+    background-color: #0C4160;
+}
+
+.heading_project {
+    font-family: "Poppins", sans-serif;
+}
+
+.portfolio_box {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section Start */
+
+.contact_section {
+    background-color: #0C4160;
+}
+
+.boxs {
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.boxs span {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+}
+
+.boxs:hover i {
+    color: rgb(226, 226, 226);
+}
+
+.boxs:hover span {
+    background: black;
+}
+
+.contact_form_box .btn {
+    color: #ffffff;
+    background: #1365AD;
+}
+
+.contact_form_box .btn:hover {
+    background-color: #738FA7;
+}
